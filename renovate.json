@@ -1,8 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "docker-compose": {
-    "fileMatch": ["^dvc_azure/tests/docker-compose.yaml$"]
+  "docker": {
+    "fileMatch": ["^dvc_azure/tests/docker-compose.yaml$"],
+    "enabled": true
   }
 }
